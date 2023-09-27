@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  box-shadow: 0px 0px 100px 8px #ffa2f987;
+  border-radius: 13px;
+  background-color: #131313;
+  padding: 5vh;
+}
+
+.from {
+  border-style: solid;
+  border-radius: 10px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 20px;
+  background-color: #171717;
+  box-shadow: 0px 0px 5px 0px rgba(173, 173, 173, 0.1);
+}
+
+.to {
+  border-style: solid;
+  border-radius: 10px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  background-color: #171717;
+  box-shadow: 0px 0px 5px 0px rgba(173, 173, 173, 0.1);
+}
+
+.amount-description {
+  color: #919191;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.amount-input {
+  width: 70vh;
+  height: 10vh;
+  padding-top: 1vh;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-color: transparent;
+  outline-style: none;
+  font-size: xx-large;
+}
+
+.amount-input:focus {
+  border-color: transparent;
+  outline-style: none;
+}
+
+.amount-currency-holder {
+  margin-top: 2vh;
+}
+
+.amount-currency {
+  color: #BBBBBB;
+  height: 4vh;
+  width: 10vh;
+}
+
+.dropdown {
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.swap {
+  height: 30px;
+  top: -10px;
+  z-index: 1;
+}
+
+.swap:hover {
+  background-color: aquamarine;
+}
+
+.swap-icon {
+  color: #ffffff;
+}
+
+.connect-wallet {
+  width: 100%;
+  border-radius: 10px !important;
+}
+
