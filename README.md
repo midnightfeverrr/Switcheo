@@ -1,5 +1,5 @@
 # Switcheo
-Switcheo Code Challenge
+Switcheo Code Challenge for Frontend Engineer Internship Position
 
 ## Problem 1
 3 unique implementations of the following function in JavaScript. 
