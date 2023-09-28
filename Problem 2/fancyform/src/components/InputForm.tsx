@@ -7,7 +7,7 @@ import Modal from "./modal";
 import Popup from "./popup";
 import Loading from "./loading";
 
-const Converter: React.FC = () => {
+const InputForm: React.FC = () => {
   type Modaltype = "none" | "From" | "Into";
   const [from, setFrom] = useState<string>("ETH");
   const [into, setInto] = useState<string>("USDT");
@@ -196,4 +196,4 @@ const Converter: React.FC = () => {
   );
 };
 
-export default Converter;
+export default InputForm;

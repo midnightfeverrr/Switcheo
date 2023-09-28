@@ -1,16 +1,16 @@
 import React, { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
-import Particles from "react-tsparticles";
+import TSParticles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-const Stars = () => {
+const Particles = () => {
 
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadSlim(engine);
   }, []);
 
     return (
-  <Particles
+  <TSParticles
     className="tsparticles"
     init={particlesInit}
     options={{
@@ -93,4 +93,4 @@ const Stars = () => {
   )
 }
 
-export default Stars;
+export default Particles;
