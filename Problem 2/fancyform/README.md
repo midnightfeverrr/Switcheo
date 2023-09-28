@@ -1,4 +1,4 @@
- ```
+
 # Fancy Form
 
 This is a React project that creates a fancy form for converting between different cryptocurrencies. 
