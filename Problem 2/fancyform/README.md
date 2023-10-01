@@ -2,6 +2,7 @@
 # Fancy Form
 
 This is a React project that creates a fancy form for converting between different cryptocurrencies. 
+https://switcheo-tosc.vercel.app/
 
 ## Step 1: Install dependencies
 
